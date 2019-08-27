@@ -7,78 +7,79 @@ it showed up on my Github page.  That is amazing.
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+I could see print (color) as a diffrence between main 1 and 2, but I don't see the diffrence on terminal.
 What do you think the color = input() will do? 
-
+Brings your favorite color on a screen or brings the whole question to the screen.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+Kind of yes.  I was surprised that some extra things came up.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+I can see the options from number 3.  It says if you put red on the answer, then it automatically says correct by print "correct!" and if you answer something else, then it says sorry try again.
 What is happening on lines 11–14? 
-
+If you answer Red then the page says correct, but if you answer something else, then it says sorry try again.
 Why are lines 12 and 14 indented? 
-
+I could see the button to hide the print parts, so I guess those are sub parts of the lines probably...
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+it said "sorry try again" even you put red without the capital.
 What does this tell you about "color"?
-
+The page is questioning to users, and it organized with the coding system to react how people answer to the question.  Color is just the free phrase to put. 
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+It is similar to number 3, but this time, the choise increased.  The system will say correct with eihter Red or red.
 What problem is this trying to solve? 
-
+Even the answer would be red, the system automatically says Correct!  At the number 3, red was treated as incorrect.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+If you change some part of red such as RED, reD, then the system answered "sorry try again"
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+It solves the problem.  If you put red with lower or upper case then it treated as a correct. 
 What problem is it trying to solve? 
-
+The lower and upper case issues.
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+If you write down red with any case, it treated as  a correct.
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+strip() is included as a new system.
 What would you guess .strip() is doing? 
-
+It probably solves the font issues.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+Writing down with diffrent size, or writing down with in another language.
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+The new choise was included.  It is not just yes or no anymore.  Close choise was in to the option.
 What is the purpose of line 11? 
-
+brings not jsut red as a answer, but also any other color which close to red.
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+If the answer is not red, then it would repeat the question.
 Why are lines 12–19 indented? 
-
+It might be because connecting to the line 11.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+It would just finish up the sentence even people answer correctly or not.
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
+If you switch line 11 and 12, it continuing says close because the answer wasn't red.
 
 
 Open main9.py. What is happening on line 12? 
-
+The question keeps going until people answer red.
 What is the purpose of “count”? 
-
+It would count how many times people answered.
 What is happening on line 22? 
-
+Probably after you answer, the count showed up.
 Run the program.
-
+Until you answer red, the question kept going, and after I answered red, the count showed up.
 
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
 
 Commit your changes and push them back to the repository. 
-
+I sent it 
 Did you do the extra credit?
+Yes
